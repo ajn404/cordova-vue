@@ -4,7 +4,9 @@
   "license": "MIT",
   "author": "Ajn404",
   "description": "cordova vue template",
-  "files": ["www"],
+  "files": [
+    "www"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",
@@ -31,6 +33,7 @@
     "@vue/eslint-config-typescript": "^11.0.0",
     "@vue/test-utils": "^2.0.2",
     "@vue/tsconfig": "^0.1.3",
+    "cordova-ios": "^6.2.0",
     "cypress": "^10.4.0",
     "eslint": "^8.21.0",
     "eslint-plugin-cypress": "^2.12.1",
@@ -43,5 +46,10 @@
     "vite": "^3.0.4",
     "vitest": "^0.21.0",
     "vue-tsc": "^0.39.5"
+  },
+  "cordova": {
+    "platforms": [
+      "ios"
+    ]
   }
 }
