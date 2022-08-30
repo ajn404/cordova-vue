@@ -1,6 +1,10 @@
 {
   "name": "cordova-vue",
   "version": "0.0.0",
+  "license": "MIT",
+  "author": "Ajn404",
+  "description": "cordova vue template",
+  "files": ["www"],
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check build-only",

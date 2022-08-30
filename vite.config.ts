@@ -11,5 +11,15 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
+  },
+  build:{
+
+    outDir:'www',
+    rollupOptions:{
+      output:{
+        format:'iife',
+        dir:'www'
+      }
+    }
   }
 })

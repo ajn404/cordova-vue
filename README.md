@@ -57,3 +57,11 @@ npm run test:e2e # or `npm run test:e2e:ci` for headless testing
 ```sh
 npm run lint
 ```
+
+### 项目构建
+
+```sh
+npm init vue@latest
+```
+
+
